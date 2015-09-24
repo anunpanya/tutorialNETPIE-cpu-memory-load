@@ -1,0 +1,120 @@
+	body {
+		text-align:center;
+		background:#f8f8f8;
+		color:#FFF;
+	}
+
+	#idle {
+		width:200px; height:160px;
+		display: inline-block;
+		margin:2px 2px 0 2px;
+	}
+	
+	#sys {
+		width:200px; height:160px;
+		display: inline-block;
+		margin:2px 2px 0 0;
+	}
+
+	#user {
+		width:200px; height:160px;
+		display: inline-block;
+		margin:0 2px 2px 0;
+	}
+
+	#nice {
+		width:200px; height:160px;
+		display: inline-block;
+		margin:0 2px 2px 2px;
+	}
+
+	#cpuload {
+		background-color:cornflowerblue;
+		width:404px; height:324px;
+		display: inline-block;
+	}
+
+	#memload {
+		background-color:yellowgreen;
+		width:404px; height:324px;
+		display: inline;
+		margin:0 0 0 2px;
+		float:left;
+	}
+
+	#totalmem {
+		width:404px; height:160px;
+		display: inline-block;
+		margin:0 0 2px 0;
+		background-color:darksalmon;
+	}
+
+	#freemem {
+		width:404px; height:160px;
+		display: inline-block;
+		margin:2px 0 2px 0;
+		background-color:darksalmon;
+	}
+	
+	#freememvalue,#totalmemvalue {
+		font-size:48px;
+		font-weight:bold;
+	}
+	
+	#topicmem {
+		font-size:28px;
+	}
+	
+	#megabytes {
+		font-size:24px;
+	}
+	
+	#currenttime {
+		background-color:firebrick;
+		width:404px; 
+		height:324px;
+		display: inline;
+		float:left;
+		margin:0 2px;
+	}
+
+	#user {
+		background-color:crimson;
+	}
+
+	#nice {
+		background-color:crimson;
+	}
+
+	#sys {
+		background-color:#efad4d;
+	}
+
+	#idle {
+		background-color:#efad4d;
+	}
+
+	#time {
+		font-size: 52px;
+		font-weight: bold;
+		margin:0px;
+		padding:15px;
+	}
+
+	#date {
+		font-size: 36px;
+	}
+	
+	#datetime {
+		margin:100px 0;	
+	}
+
+	#row {
+		display:table-row;
+	}
+
+	#logo {
+		width:404px; 
+		height:324px;
+		display: inline-block;
+	}
