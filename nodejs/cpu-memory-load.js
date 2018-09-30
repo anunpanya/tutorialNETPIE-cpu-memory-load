@@ -4,9 +4,9 @@ var os = require("os"),
     cpus = os.cpus(),
     MicroGear = require('microgear');
 
-const APPKEY    = <APPKEY>;
-const APPSECRET = <APPSECRET>;
-const APPID     = <APPID>;
+const APPKEY    = "<APPKEY>";
+const APPSECRET = "<APPSECRET>";
+const APPID     = "<APPID>";
 
 var microgear = MicroGear.create({
     gearkey : APPKEY,

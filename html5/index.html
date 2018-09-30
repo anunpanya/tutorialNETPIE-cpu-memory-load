@@ -1,6 +1,14 @@
-<script src="microgear.js"></script>
-<script src="js/raphael.2.1.0.min.js"></script>
-<script src="js/justgage.1.0.1.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>NETPIE Monitor</title>
+
+<script src="https://cdn.netpie.io/microgear.js"></script>
+<script src="js/raphael.2.1.4.min.js"></script>
+<script src="js/justgage.1.2.2.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -93,9 +101,9 @@
 		},1000);
       	};
 
-	const APPKEY = <APPKEY>;
-	const APPSECRET = <APPSECRET>;
-	const APPID = <APPID>;
+	const APPKEY = "<APPKEY>";
+	const APPSECRET = "<APPSECRET>";
+	const APPID = "<APPID>";
 
 	var microgear = Microgear.create({
 		gearkey: APPKEY,
@@ -125,43 +133,48 @@
 	microgear.resettoken();
 	microgear.connect(APPID);
 </script>
-<center>
-<div style="display:block;width:1226px;height:328px;">
-	<div id="logo"><img src="img/logo.png" style="width: 300px;height:193px;display: block;position: absolute;vertical-align:middle;text-align:center;margin:65px 52px;"/></div>
-	<div id="cpuload"></div>
-	<div style="display:inline-block;">
-		<div style="display:table-row;">
-			<div id="user"></div>
-			<div id="nice"></div>
-		</div>
-		<div id="row">
-			<div id="sys"></div>
-			<div id="idle"></div>
-		</div>
-	</div>
-</div>
-<div style="display:block;width:1226px;height:328px;">
-	<div id="currenttime"></div>
-	<div id="memload"></div>
-	<div style="display:inline;">
-		<div id="row">
-	        <div id="totalmem">
-            	<p>
-                	<span id="topicmem">Total Memory</span><br>
-                	<span id="totalmemvalue">0</span><br>
-                	<span id="megabytes">megabytes</span>
-                </p>
-            </div>
-		</div>
-		<div id="row">
-        	<div id="freemem">
-                <p>
-                	<span id="topicmem">Free Memory</span><br>
-                	<span id="freememvalue">0</span><br>
-                	<span id="megabytes">megabytes</span>
-                </p>
-            </div>
-		</div>
-	</div>
-</div>
-</center>
+
+</head>
+<body>
+		<center>
+				<div style="display:block;width:1226px;height:328px;">
+					<div id="logo"><img src="img/logo.png" style="width: 300px;height:193px;display: block;position: absolute;vertical-align:middle;text-align:center;margin:65px 52px;"/></div>
+					<div id="cpuload"></div>
+					<div style="display:inline-block;">
+						<div style="display:table-row;">
+							<div id="user"></div>
+							<div id="nice"></div>
+						</div>
+						<div id="row">
+							<div id="sys"></div>
+							<div id="idle"></div>
+						</div>
+					</div>
+				</div>
+				<div style="display:block;width:1226px;height:328px;">
+					<div id="currenttime"></div>
+					<div id="memload"></div>
+					<div style="display:inline;">
+						<div id="row">
+							<div id="totalmem">
+								<p>
+									<span id="topicmem">Total Memory</span><br>
+									<span id="totalmemvalue">0</span><br>
+									<span id="megabytes">megabytes</span>
+								</p>
+							</div>
+						</div>
+						<div id="row">
+							<div id="freemem">
+								<p>
+									<span id="topicmem">Free Memory</span><br>
+									<span id="freememvalue">0</span><br>
+									<span id="megabytes">megabytes</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</center>
+</body>
+</html>
