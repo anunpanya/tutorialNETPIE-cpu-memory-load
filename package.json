@@ -1,0 +1,24 @@
+{
+  "name": "tutorialnetpie-cpu-memory-load",
+  "version": "1.0.0",
+  "description": "```\r npm install\r npm start\r ```",
+  "main": "nodejs/cpu-memory-load.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anunpanya/tutorialNETPIE-cpu-memory-load.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anunpanya/tutorialNETPIE-cpu-memory-load/issues"
+  },
+  "homepage": "https://github.com/anunpanya/tutorialNETPIE-cpu-memory-load#readme",
+  "dependencies": {
+    "microgear": "^0.8.1",
+    "nodemon": "^1.18.4"
+  }
+}
